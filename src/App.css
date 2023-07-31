@@ -1,0 +1,115 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.list-container {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.main-container {
+  padding: 12px 62px;
+}
+
+.grid-item {
+  height: calc(100vw/3 - 124px - 32px);
+  background: whitesmoke;
+  list-style: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.details {
+  padding: 12px 24px;
+}
+
+.grid-item>img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.tname {
+  text-align: left;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.images-container{
+  margin-top: 1rem;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.images-container > img{
+  width: 350px;
+  height: 550px;
+  flex: 1;
+}
+
+table {
+  border: 1px solid #D6EEEE;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 8px;
+  text-align: right;
+  border-bottom: 1px solid #DDD;
+}
+
+tr:hover {
+  background-color: #D6EEEE;
+}
+
+.dialog-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.guest-container-pricing {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.guest-container-pricing p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.subtotal-pricing {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.subtotal-pricing p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
